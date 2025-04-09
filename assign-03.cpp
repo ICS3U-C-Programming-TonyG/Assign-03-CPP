@@ -18,7 +18,7 @@ int main() {
             break;
         }
 
-        // Check for valid input (single letter) 
+        // Check for valid input (single letter) Break learned from https://www.w3schools.com/cpp/cpp_while_loop.asp
         if (userInput.length() == 1 && std::isalpha(userInput[0])) {
             char letter = userInput[0];
 
