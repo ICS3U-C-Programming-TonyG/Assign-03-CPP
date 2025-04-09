@@ -7,6 +7,7 @@
 int main() {
     std::string userInput;
 
+    // While true learned from https://www.w3schools.com/cpp/cpp_while_loop.asp
     while (true) {
         std::cout << "Enter a letter (or type 'exit' to quit): ";
         std::cin >> userInput;
