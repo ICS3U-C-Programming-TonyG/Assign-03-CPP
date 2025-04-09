@@ -22,7 +22,7 @@ int main() {
         if (userInput.length() == 1 && std::isalpha(userInput[0])) {
             char letter = userInput[0];
 
-            // Check uppercase 
+            // Check uppercase .length learned from https://www.w3schools.com/cpp/cpp_strings_length.asp isalpha learned from https://docs.vultr.com/cpp/standard-library/cctype/isalpha
             if (std::isupper(letter)) {
                 std::cout << "The letter you have inputted is uppercase." << std::endl;
                 std::cout << "The lowercase version is: " << (char)std::tolower(letter) << std::endl;
