@@ -1,8 +1,11 @@
 // Copyright (c) 2020 Tony G All rights reserved.
 //
 // Created by: Tony G
+
 // Created on: 2025-03-17
+
 // Converts upper to lowercase and lower to uppercase, also tells you
+
 // which case it is.
 
 #include <cctype>  // cctype learned from https://www.programiz.com/cpp-programming/library-function/cctype
