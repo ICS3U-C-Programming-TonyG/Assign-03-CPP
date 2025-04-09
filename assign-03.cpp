@@ -33,7 +33,7 @@ int main() {
                 std::cout << "The uppercase version is: " << (char)std::toupper(letter) << std::endl;
             }
 
-            // Alphabet half check 
+            // Alphabet half check tolower learned from https://www.programiz.com/cpp-programming/library-function/cctype/tolower
             if (std::tolower(letter) <= 'm') {
                 std::cout << "This letter is in the first half of the alphabet." << std::endl;
             } else {
