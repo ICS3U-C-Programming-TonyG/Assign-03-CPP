@@ -43,6 +43,7 @@ int main() {
             } else if (std::islower(letter)) {
                 // islower and toupper learned from:
                 // https://www.programiz.com/cpp-programming/library-function/cctype/islower
+                // static_cast learned from cpplint
                 std::cout << "The letter you have inputted is lowercase."
                           << std::endl;
                 std::cout << "The uppercase version is: "
