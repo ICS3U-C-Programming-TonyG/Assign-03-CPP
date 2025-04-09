@@ -27,7 +27,7 @@ int main() {
                 std::cout << "The letter you have inputted is uppercase." << std::endl;
                 std::cout << "The lowercase version is: " << (char)std::tolower(letter) << std::endl;
             }
-            // Check lowercase isupper learned from 
+            // Check lowercase islower and toupper learned from https://www.programiz.com/cpp-programming/library-function/cctype/islower
             else if (std::islower(letter)) {
                 std::cout << "The letter you have inputted is lowercase." << std::endl;
                 std::cout << "The uppercase version is: " << (char)std::toupper(letter) << std::endl;
