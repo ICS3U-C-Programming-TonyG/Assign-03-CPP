@@ -4,9 +4,9 @@
 
 // Created on: 2025-03-17
 
-// Converts upper to lowercase and lower to uppercase, also tells you which case it is. 
+// Converts upper to lowercase and lower to uppercase, also tells you which case it is.
 
-#include <cctype>  // for isalpha, isupper, islower, toupper, tolower
+#include <cctype>  // for isalpha, isupper, islower, toupper, tolower cctype learned from https://www.programiz.com/cpp-programming/library-function/cctype
 #include <iostream>
 #include <string>
 
